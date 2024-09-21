@@ -30,6 +30,7 @@ a {
 .logo img {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 .title {
   font-family: "Titillium Web", sans-serif;
@@ -48,6 +49,7 @@ a {
   list-style: none;
   text-align: center;
   width: 25%;
+  cursor: pointer;
 }
 .navbar li {
   color: #122349;
@@ -128,6 +130,7 @@ body {
   height: 30px;
   object-fit: cover;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 /* Hero Image Styling */
