@@ -230,9 +230,9 @@ body {
   background-color: #122349;
   color: #fff;
   padding: 40px 0;
-  text-align: center;
+  /* text-align: s; */
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .footer-container {
