@@ -26,7 +26,9 @@ const Footer = () => {
               <a href="#about">About Us</a>
             </li>
             <li>
-              <a href="/privacy">Privacy Policy</a>
+              <a href="https://www.privacypolicies.com/live/b5a07d25-aaaa-4216-b464-24786fc90d6e">
+                Privacy Policy
+              </a>
             </li>
             <li>
               <a href="/support">Support</a>
