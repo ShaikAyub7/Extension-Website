@@ -14,12 +14,11 @@ html {
 }
 .navbar {
   display: flex;
-  background-color: rgb(255, 255, 255);
-  justify-content: space-evenly; /* Center the items horizontally */
-  align-items: center; /* Center the items vertically */
+  background-color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
   height: 60px;
   padding: 20px;
-  gap: 15%;
   width: 100%;
   border-bottom: 0.5px solid grey;
   text-align: center;
@@ -44,7 +43,8 @@ a {
 }
 .navbar ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 80px;
   list-style: none;
   text-align: center;
   width: 25%;
@@ -63,8 +63,10 @@ body {
 
 /* Hero Section Styling */
 .center {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  /* gap: 5%; */
   align-items: center;
   text-align: center;
   color: #fff;
