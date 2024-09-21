@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer" id="contact">
       <div className="footer-container">
         <div className="footer-left ">
-          <div className="footerText">
+          <div className="footerText" style={{ display: "flex" }}>
             <img
               src={img1}
               alt="loading...."
@@ -59,7 +59,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="footer-bottom">
+      <div className="footer-bottom" style={{ textAlign: "center" }}>
         <p>
           &copy; {new Date().getFullYear()} Tab Time Tracker | All Rights
           Reserved

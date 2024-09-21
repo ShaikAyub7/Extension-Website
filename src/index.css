@@ -232,7 +232,7 @@ body {
   padding: 40px 0;
   /* text-align: s; */
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 
 .footer-container {
