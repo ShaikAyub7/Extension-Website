@@ -355,6 +355,9 @@ body {
     line-height: 20px;
     margin-bottom: 4rem;
   }
+  .heroContent {
+    text-align: start;
+  }
 
   .downloadBtn {
     width: 100%;
@@ -414,7 +417,9 @@ body {
     line-height: 20px;
     margin-bottom: 4rem;
   }
-
+  .heroContent {
+    text-align: start;
+  }
   .downloadBtn {
     width: 100%;
   }
