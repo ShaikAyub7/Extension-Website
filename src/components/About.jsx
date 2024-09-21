@@ -9,7 +9,7 @@ const About = () => {
       <h1 className="AboutHeading">About</h1>
       <div className="Aboutcontainer">
         <div className="aboutImgConatiner">
-          <img src={img1} alt="" />
+          <img src={img1} alt="" className="aboutimg" />
         </div>
         <div className="AboutContent">
           At Tab Time Tracker, we believe that understanding your web habits is
@@ -27,12 +27,12 @@ const About = () => {
           extension offers the tools you need — all in one place.
         </div>
         <div className="aboutImgConatiner">
-          <img src={img2} alt="" />
+          <img src={img2} alt="" className="aboutimg" />
         </div>
       </div>
       <div className="Aboutcontainer">
         <div className="aboutImgConatiner">
-          <img src={img3} alt="" />
+          <img src={img3} alt="" className="aboutimg" />
         </div>
         <div className="AboutContent">
           We’re committed to providing a seamless experience with no unnecessary

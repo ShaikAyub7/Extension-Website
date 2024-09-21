@@ -149,22 +149,34 @@ body {
   margin-top: 3rem;
 }
 .Aboutcontainer {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5%;
+  justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
+}
+.aboutimg {
 }
 .AboutHeading {
   margin-bottom: 2rem;
 }
 .aboutImgConatiner img {
   max-width: 300px;
+
+  /* justify-content: left; */
+
   object-fit: cover;
+}
+.aboutImgConatiner:nth-child(even) img {
+  display: grid;
+  justify-content: right;
 }
 .AboutContent {
   max-width: 600px;
   line-height: 2rem;
   text-align: left;
+
   padding: 0 20px;
   animation: fadeIn 3s ease-in-out;
 }
