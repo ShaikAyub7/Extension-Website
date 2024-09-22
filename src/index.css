@@ -6,6 +6,20 @@
 }
 html {
   scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+  font-family: "Arial", sans-serif;
+
+  background-image: url("./images/background3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; /* Fix the background image */
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .main {
   max-width: 85vw;
@@ -14,15 +28,22 @@ html {
 }
 .navbar {
   display: flex;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
   justify-content: space-around;
   align-items: center;
   height: 60px;
   padding: 20px;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
   border-bottom: 0.5px solid grey;
   text-align: center;
+
+  backdrop-filter: blur(5px); /* Adds the blur effect */
+  -webkit-backdrop-filter: blur(5px); /* Safari support */
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -55,21 +76,6 @@ a {
   color: #122349;
 }
 /* General Styling */
-body {
-  font-family: "Arial", sans-serif;
-
-  /* background-image: url("./images/background.jpg"); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  height: 100%; /* Makes sure the body takes the full viewport height */
-}
 
 /* Hero Section Styling */
 .center {
@@ -81,7 +87,11 @@ body {
   text-align: center;
   color: #fff;
   padding: 60px;
-  background-color: #122349;
+  /* background-color: #122349; */
+  background-color: rgba(18, 35, 73, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
 }
 
 /* Content Styling */
@@ -166,6 +176,8 @@ body {
   grid-template-columns: auto auto;
   gap: 5%;
   justify-content: center;
+  color: white;
+  font-size: 18px;
   align-items: center;
   margin-bottom: 4rem;
 }
@@ -209,10 +221,20 @@ body {
   line-height: 2.5rem;
 }
 .ChooseUs {
-  background-color: #f0efca;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Slightly transparent background */
   padding: 40px;
+  color: #fff;
   text-align: center;
+  backdrop-filter: blur(1px); /* Applies the blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  border-radius: 10px; /* Optional: Add rounded corners for a better look */
 }
+
 .getStart {
   background-color: #1a1b1c;
   color: #fff;

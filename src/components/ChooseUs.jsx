@@ -3,7 +3,7 @@ import React from "react";
 const ChooseUs = () => {
   return (
     <div className="ChooseUs" id="chooseus">
-      <h2>Why Choose Us?</h2>
+      <h1>Why Choose Us?</h1>
       <div className="ChooseUsContainer">
         <div className="ChooseusContent">
           <li>
