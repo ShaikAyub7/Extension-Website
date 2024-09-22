@@ -3,7 +3,7 @@ import img1 from "../images/hero3.png";
 import img2 from "../images/edge-logo.png";
 const Hero = () => {
   return (
-    <section className="hero" id="hero">
+    <section className="hero section" id="hero">
       <div className="center">
         <div className="heroContent">
           <h1 className="hero-heading">

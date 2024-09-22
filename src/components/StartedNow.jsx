@@ -3,7 +3,7 @@ import img2 from "../images/edge-logo.png";
 
 const StartedNow = () => {
   return (
-    <div className="getStart" id="download">
+    <div className="getStart section" id="download">
       <div>
         <h2> Get Started Now</h2>
         <div className="getStartContent">

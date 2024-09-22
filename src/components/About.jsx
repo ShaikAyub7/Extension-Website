@@ -5,7 +5,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="about" id="about">
+    <section className="about section" id="about">
       <h1 className="AboutHeading" style={{ color: "white", fontSize: "32px" }}>
         About Us
       </h1>

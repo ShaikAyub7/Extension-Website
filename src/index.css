@@ -21,6 +21,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.section {
+  scroll-margin-top: 3rem;
+}
 .main {
   max-width: 85vw;
   text-align: center;

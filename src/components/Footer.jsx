@@ -3,7 +3,7 @@ import img1 from "../images/logo3.png";
 
 const Footer = () => {
   return (
-    <footer className="footer" id="contact">
+    <footer className="footer section" id="contact">
       <div className="footer-container">
         <div className="footer-left ">
           <div className="footerText" style={{ display: "flex" }}>
