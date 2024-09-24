@@ -18,7 +18,10 @@ const Hero = () => {
 
           <div className="downloadBtn">
             <img src={img2} alt="" style={{ width: "30px" }} />
-            <a href="#"> Go to download</a>
+            <a href="https://microsoftedge.microsoft.com/addons/detail/aoecofhfffbfnkekppdgicmnfjmfdmoe ">
+              {" "}
+              Go to download
+            </a>
           </div>
         </div>
         <div className="heroimg">
