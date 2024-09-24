@@ -40,19 +40,34 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           <h4>Follow Us</h4>
-          <ul className="social-icons">
+          <ul
+            className="social-icons"
+            style={{ textAlign: "center", padding: "1px" }}
+          >
             <li>
               <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                <i
+                  class="fa-brands fa-facebook"
+                  style={{ color: " #3663b0" }}
+                ></i>
                 Facebook
               </a>
             </li>
             <li>
               <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                <i
+                  class="fa-brands fa-twitter"
+                  style={{ color: " #74C0FC" }}
+                ></i>
                 Twitter
               </a>
             </li>
             <li>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+                <i
+                  class="fa-brands fa-linkedin"
+                  style={{ color: "#2e59a3" }}
+                ></i>
                 LinkedIn
               </a>
             </li>
