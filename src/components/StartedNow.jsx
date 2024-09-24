@@ -19,7 +19,11 @@ const StartedNow = () => {
           >
             <div style={{ marginTop: "2rem" }} className="footerBtn">
               <img src={img2} alt="" style={{ width: "30px" }} />
-              <a href="https://microsoftedge.microsoft.com/addons/detail/aoecofhfffbfnkekppdgicmnfjmfdmoe ">
+              <a
+                href="https://microsoftedge.microsoft.com/addons/detail/aoecofhfffbfnkekppdgicmnfjmfdmoe "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Download Now
               </a>
             </div>
