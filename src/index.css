@@ -34,7 +34,7 @@ body {
   background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
   justify-content: space-around;
   align-items: center;
-  height: 60px;
+  height: 70px;
   padding: 20px;
   width: 100%;
   position: sticky;
@@ -69,15 +69,19 @@ a {
 .navbar ul {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  align-items: center;
+  gap: 40px;
   list-style: none;
   text-align: center;
   width: 25%;
   cursor: pointer;
 }
-.navbar li {
+/* .navbar li {
   color: #122349;
-}
+  text-align: center;
+  width: 100%;
+} */
+
 /* General Styling */
 
 /* Hero Section Styling */
@@ -293,8 +297,9 @@ a {
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 50px;
   align-items: flex-start;
   padding: 0 5%;
   max-width: 1200px;
@@ -311,6 +316,7 @@ a {
 .footer-center,
 .footer-right {
   flex: 1;
+  gap: 20px;
 }
 
 .footer-center ul,
@@ -407,7 +413,7 @@ a {
   }
   .Aboutcontainer {
     display: flex;
-    font-size: 12px;
+    font-size: 18px;
     max-width: 100%;
     line-height: 20px;
     margin-bottom: 4rem;
@@ -428,20 +434,19 @@ a {
   }
 
   .AboutContent {
-    font-size: 8px;
     max-width: 100%;
+    font-size: 12px;
+    /* line-height: 0.8rem; */
+    text-align: left;
+    display: block;
+    /* padding: 0 20px; */
+    animation: fadeIn 3s ease-in-out;
   }
   .footerBtn {
     text-align: center;
     /* margin-left: 8%; */
   }
-  .AboutContent {
-    font-size: 8px;
-    line-height: 0.8rem;
-    text-align: left;
-    /* padding: 0 20px; */
-    animation: fadeIn 3s ease-in-out;
-  }
+
   .logo {
     width: 100%;
     display: flex;
@@ -470,7 +475,7 @@ a {
   }
   .Aboutcontainer {
     display: flex;
-    font-size: 12px;
+    font-size: 18px;
     max-width: 100%;
     line-height: 20px;
     margin-bottom: 4rem;
@@ -497,7 +502,7 @@ a {
     /* margin-left: 8%; */
   }
   .AboutContent {
-    font-size: 8px;
+    font-size: 16px;
     line-height: 0.8rem;
     text-align: left;
     /* padding: 0 20px; */

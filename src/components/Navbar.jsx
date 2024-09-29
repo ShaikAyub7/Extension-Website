@@ -1,6 +1,7 @@
 import React from "react";
 import { NavbarData } from "../Data";
 import img1 from "../images/logo3.png";
+import img2 from "../images/edge-logo.png";
 
 import "../index.css";
 const Navbar = () => {
@@ -18,6 +19,21 @@ const Navbar = () => {
             </li>
           );
         })}
+        <div
+          className="downloadBtn nav-btn"
+          style={{
+            margin: "0",
+            height: "40px",
+            textAlign: "center",
+            background: "none",
+            border: "0.5px solid gray",
+          }}
+        >
+          <img src={img2} alt="" style={{ width: "30px" }} />
+          <a href="" style={{ fontSize: "16px", width: "100%" }}>
+            Download Now
+          </a>
+        </div>
       </ul>
     </nav>
   );

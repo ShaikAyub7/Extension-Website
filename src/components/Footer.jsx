@@ -15,7 +15,10 @@ const Footer = () => {
             &nbsp;
             <h3 className="">Tab Time Tracker</h3>
           </div>
-          <p className="footerText">
+          <p
+            className="footerText"
+            style={{ fontSize: "12px", flexWrap: "wrap" }}
+          >
             Efficient browsing insights to optimize your web habits.
           </p>
         </div>
@@ -50,7 +53,7 @@ const Footer = () => {
                   class="fa-brands fa-facebook"
                   style={{ color: " #3663b0" }}
                 ></i>
-                Facebook
+                &nbsp; Facebook
               </a>
             </li>
             <li>
@@ -59,7 +62,7 @@ const Footer = () => {
                   class="fa-brands fa-twitter"
                   style={{ color: " #74C0FC" }}
                 ></i>
-                Twitter
+                &nbsp; Twitter
               </a>
             </li>
             <li>
@@ -68,7 +71,7 @@ const Footer = () => {
                   class="fa-brands fa-linkedin"
                   style={{ color: "#2e59a3" }}
                 ></i>
-                LinkedIn
+                &nbsp; LinkedIn
               </a>
             </li>
           </ul>
