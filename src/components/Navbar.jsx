@@ -30,8 +30,12 @@ const Navbar = () => {
           }}
         >
           <img src={img2} alt="" style={{ width: "30px" }} />
-          <a href="" style={{ fontSize: "16px", width: "100%" }}>
-            Download Now
+          <a
+            href="https://microsoftedge.microsoft.com/addons/detail/aoecofhfffbfnkekppdgicmnfjmfdmoe "
+            target="_blank"
+            style={{ fontSize: "16px", width: "100%" }}
+          >
+            Download
           </a>
         </div>
       </ul>
