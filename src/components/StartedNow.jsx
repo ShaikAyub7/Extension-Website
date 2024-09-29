@@ -6,7 +6,7 @@ const StartedNow = () => {
     <div className="getStart section" id="download">
       <div>
         <h2> Get Started Now</h2>
-        <div className="getStartContent">
+        <div className="getStartContent" style={{ lineHeight: "1.5rem" }}>
           Ready to optimize your browsing time and improve productivity?
           Download Tab Time Tracker today and take the first step toward better
           time management online.

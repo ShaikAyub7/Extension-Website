@@ -5,21 +5,25 @@ import ChooseUs from "./components/ChooseUs";
 import StartedNow from "./components/StartedNow";
 import "./index.css";
 import Footer from "./components/Footer";
-function App() {
+import Spline from "./components/Spline";
+
+const Main = () => {
   return (
     <>
       <Navbar />
       <Hero />
       <div className="main">
-        {" "}
         <About />
       </div>
       <ChooseUs />
-
       <StartedNow />
+
       <Footer />
     </>
   );
-}
+};
 
+function App() {
+  return <Main />;
+}
 export default App;

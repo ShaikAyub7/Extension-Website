@@ -1,6 +1,7 @@
 import React from "react";
 import img1 from "../images/banner3.png";
 import img2 from "../images/edge-logo.png";
+import SplineApp from "./Spline";
 const Hero = () => {
   return (
     <section className="hero section" id="hero">
